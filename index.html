@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <style>
+        body{
+            background-color: coral;
+            display: flex;
+            justify-content: center;
+            margin: 200px auto;
+            /* text-align: center; */
+        }
+
+        p{
+            height: 30px;
+            /* background-color: aqua; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Search Your Age</h1>
+        <input type="search" name="search" id="search-inpt">
+        <button id="search-btn">Results</button>
+        <div>
+            <p> NAME: <span id="name">  </span> </p>
+            <p> AGE: <span id="age">  </span> </p>
+            <small>*NOTE-I know its  not Your correct age ! Here I'm just using an api that shows a random number as a age when a user enter its name. </small>
+        </div>
+    </div>
+    <script src="app.js"> </script>
+
+</body>
+</html>
